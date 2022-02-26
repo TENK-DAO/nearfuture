@@ -4,18 +4,7 @@
   position: relative;
   z-index: 1;
   background-image: linear-gradient(247deg, #c24726, #547adb);
-  animation: gradient 15s ease infinite;
-  @keyframes gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
+
 
   &__container {
     width: 1092px;
