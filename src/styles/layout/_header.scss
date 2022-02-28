@@ -1,11 +1,12 @@
 .header {
   padding: 36px 120px;
-  max-width: 1280px;
+  max-width: 100%;
   margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
+  background-image: linear-gradient(341deg, #c24726, #547adb);
 
   @include for-small-desktop {
     padding: 36px;
@@ -32,7 +33,10 @@
 
   &__social {
     margin-right: 56px;
-
+    background: white;
+    width: 8%;
+    padding: 20px;
+    border-radius: 30px;
     @include for-small-desktop {
       margin-right: 30px;
     }

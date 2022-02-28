@@ -4,7 +4,7 @@
 
   &__data-wrapper {
     position: relative;
-    background: linear-gradient(transparent 10%, #6b6ef912, transparent);
+    background-image: linear-gradient(247deg, #c24726, #547adb);
   }
 
   &__background {
@@ -43,7 +43,7 @@
     margin-bottom: 50px;
 
     &-purpure {
-      color: $purpure-color;
+      color: rgb(0, 191, 255);
     }
   }
 
@@ -59,6 +59,7 @@
     gap: 11px;
     margin-top: 30px;
     position: relative;
+    color: white;
 
     &::before {
       content: 'Shareable links';
@@ -66,7 +67,7 @@
       top: -20px;
       left: 35px;
       font-size: 10px;
-      color: #3f4246;
+      color: white;
     }
 
     &::after {
@@ -75,7 +76,7 @@
       top: -20px;
       left: 355px;
       font-size: 10px;
-      color: #3f4246;
+      color: white;
     }
   }
 

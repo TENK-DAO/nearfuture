@@ -2,18 +2,22 @@
   color: $common-color;
   line-height: 150%;
   font-size: 16px;
+  background-image: linear-gradient(300deg, #c24726, #547adb);
 
   &__container {
     width: 992px;
     margin: auto;
-    padding: 52px 0 216px;
+    padding: 52px 0 146px;
 
     @include for-laptop {
       width: 100%;
       padding: 50px 20px 100px;
     }
   }
-
+  &__tenk {
+    width: 115px;
+    margin-bottom: 30px;
+  }
   &__navigation {
     width: fit-content;
     margin-bottom: 58px;
@@ -34,7 +38,11 @@
   .footer__social {
     gap: 30px;
     margin-bottom: 57px;
-
+    background: white;
+    width: 15%;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 30px;
     @include for-tablet {
       margin-bottom: 40px;
     }
@@ -55,7 +63,7 @@
     max-width: 340px;
     margin-bottom: 100px;
     font-weight: 400;
-
+    color: white;
     @include for-tablet {
       margin-bottom: 40px;
     }
