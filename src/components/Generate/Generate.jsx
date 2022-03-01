@@ -21,13 +21,20 @@ const Generate = () => {
 
           </p>
           <p className="generate__text">
-            NEAR Future NFTs are priced at a flat rate of {formatPrice(oneNFT)}{' '}
+            WHITELIST MINT NOW LIVE FOR 24 HOURS
+          </p>
+          <p className="generate__text">
+            Public Mint opens on 2nd March at 9pm UTC
+          </p>
+          <p className="generate__text">
+            Mint Price will be {formatPrice(oneNFT)}{' '}
             NEAR.
           </p>
         </div>
 
         <div className="generate__block">
-          {soldOut ? <GenerateSoldOut /> : <GenerateBlock />}
+
+          
 
           <picture>
             <source srcSet="./images/Near_Future_Warrior.png, ./images/Near_Future_Warrior.png" />
@@ -39,6 +46,9 @@ const Generate = () => {
               alt="generate near future"
             />
           </picture>
+
+          <h2 className="generate__title">Connect Wallet and Mint</h2>
+          {soldOut ? <GenerateSoldOut /> : <GenerateBlock />}
         </div>
       </div>
     </section>
