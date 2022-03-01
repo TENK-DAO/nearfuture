@@ -37,8 +37,8 @@ export const getContract = (account) => {
 
 export const getPrice = async (account) => {
   const contract = getContract(account)
-  let oneNFT = "0";
-  let costLinkDrop = "0";
+  let oneNFT = "1";
+  let costLinkDrop = "1";
 
   let minter = "aa.near";
   try {
