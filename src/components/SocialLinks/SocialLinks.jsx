@@ -7,7 +7,7 @@ import socialTwitter from '../../assets/images/social-twitter.svg';
 const SocialLinks = ({ className }) => (
   <div className={`social-links ${className || ''}`}>
     <a
-      href="https://paras.id/collection/NearFuture.tenk.near"
+      href="https://paras.id/collection/futurenft.near"
       rel="noopener noreferrer"
       target="_blank"
     >
