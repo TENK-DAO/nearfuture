@@ -16,7 +16,7 @@ const GenerateSoldOut = ({ className }) => {
     <div className={`generate-sold-out ${className || ''}`}>
       <a
         className="generate-sold-out__link"
-        href="https://paras.id/collection/NearFuture.tenk.near"
+        href="https://paras.id/collection/futurenft.near"
         target="_blank"
         rel="noopener noreferrer"
       >
