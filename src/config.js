@@ -1,4 +1,4 @@
-const contractName = process.env.REACT_APP_CONTRACT_NAME ||'nearfuturenft.near';
+const contractName = process.env.REACT_APP_CONTRACT_NAME ||'futurenft.near';
 
 export default function getConfig() {
   const config = {
