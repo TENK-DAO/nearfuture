@@ -16,11 +16,11 @@ const GenerateSoldOut = ({ className }) => {
     <div className={`generate-sold-out ${className || ''}`}>
       <a
         className="generate-sold-out__link"
-        href="/#"
+        href="https://paras.id/collection/futurenft.near"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <p>Connect wallet in header</p>
+        <p>Buy on Paras</p>
         <picture>
           <source srcSet="./images/generate-paras-2x.webp 2x, ./images/generate-paras.webp 1x" />
           <img

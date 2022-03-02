@@ -47,7 +47,7 @@ const Generate = () => {
             />
           </picture>
 
-          <h2 className="generate__title">Connect Wallet and Mint</h2>
+          <h2 className="generate__title">SOLD OUT</h2>
           {soldOut ? <GenerateSoldOut /> : <GenerateBlock />}
         </div>
       </div>
